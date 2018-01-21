@@ -9,11 +9,11 @@ var fg = new Image();
 var pipeNorth = new Image();
 var pipeSouth = new Image();
 
-bird.src = "images/angrybird.png";
-bg.src = "images/place.png";
-fg.src = "images/fgg.png";
-pipeNorth.src = "images/pipeNorth.png";
-pipeSouth.src = "images/pipeSouth.png";
+bird.src = "angrybird.png";
+bg.src = "place.png";
+fg.src = "fgg.png";
+pipeNorth.src = "pipeNorth.png";
+pipeSouth.src = "pipeSouth.png";
 
 
 // some variables
@@ -33,8 +33,8 @@ var score = 0;
 var fly = new Audio();
 var scor = new Audio();
 
-fly.src = "sounds/fly.mp3";
-scor.src = "sounds/score.mp3";
+fly.src = "fly.mp3";
+scor.src = "score.mp3";
 
 // on key down
 
